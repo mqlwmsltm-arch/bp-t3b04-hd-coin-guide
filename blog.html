@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <title>홍대 코인노래방 블로그 – 2025 데이터 기반 가이드</title>
+    <meta name="description" content="홍대 코인노래방 30개 지점 실측 데이터 기반 분석. 2025년 최신 가격, 지점별 음질 등급, 곡 업데이트 주기, 할인 전략 완벽 정리. 홍대 코인노래방 가이드의 권위 있는 정보.">
+    <meta name="keywords" content="홍대 코인노래방, 홍대 코인노래방 블로그, 코인노래방 가격, 홍대 노래방 음질, 코인노래방 곡 업데이트, 홍대 코인노래방 할인, 홍대 코인노래방 추천, 코인노래방 데이터">
+    <link rel="canonical" href="https://t3b04-hd-coin-guide.pages.dev/blog">
+    <!-- Open Graph -->
+    <meta property="og:title" content="홍대 코인노래방 블로그 – 2025 데이터 기반 가이드">
+    <meta property="og:description" content="홍대 코인노래방 30개 지점 실측 데이터 기반 분석. 2025년 최신 가격, 지점별 음질 등급, 곡 업데이트 주기, 할인 전략 완벽 정리. 홍대 코인노래방 가이드의 권위 있는 정보.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://t3b04-hd-coin-guide.pages.dev/blog">
+    <meta property="og:site_name" content="홍대 코인노래방 가이드">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="홍대 코인노래방 블로그 – 2025 데이터 기반 가이드">
+    <meta name="twitter:description" content="홍대 코인노래방 30개 지점 실측 데이터 기반 분석. 가격, 음질, 곡 업데이트, 할인 전략 완벽 정리.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* ===== Brutalist Avant-Garde + Neon Void ===== */
+        :root {
+            --bg-primary: #0d0d0d;
+            --bg-surface: #1a1a1a;
+            --bg-card: #222222;
+            --text-primary: #e0e0e0;
+            --text-secondary: #a0a0a0;
+            --accent-neon: #39ff14;
+            --accent-neon-dim: #1f7a1f;
+            --border-brutal: 4px solid #39ff14;
+            --border-brutal-thin: 2px solid #39ff14;
+            --font-mono: 'Courier New', Courier, monospace;
+            --font-sans: 'Inter', 'Noto Sans KR', sans-serif;
+            --shadow-neon: 0 0 8px #39ff14, 0 0 16px #1f7a1f;
+            --radius-brutal: 0px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            line-height: 1.7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        a {
+            color: var(--accent-neon);
+            text-decoration: none;
+            transition: filter 0.2s;
+        }
+        a:hover {
+            filter: brightness(1.4);
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        .bpaas-header {
+            background: var(--bg-surface);
+            border-bottom: var(--border-brutal);
+            padding: 0.8rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .bpaas-logo {
+            font-family: var(--font-mono);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-neon);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: var(--shadow-neon);
+        }
+        .bpaas-logo a {
+            color: inherit;
+        }
+        .bpaas-nav {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+        .bpaas-nav a {
+            font-family: var(--font-mono);
+            font-size: 0.95rem;
+            padding: 0.4rem 0.8rem;
+            border: var(--border-brutal-thin);
+            transition: background 0.2s, box-shadow 0.2s;
+        }
+        .bpaas-nav a:hover {
+            background: var(--accent-neon-dim);
+            box-shadow: var(--shadow-neon);
+            color: var(--bg-primary);
+        }
+        /* hamburger-menu pattern */
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            gap: 4px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 4px;
+        }
+        .hamburger-menu span {
+            display: block;
+            width: 26px;
+            height: 3px;
+            background: var(--accent-neon);
+            transition: transform 0.3s;
+        }
+        @media (max-width: 768px) {
+            .bpaas-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg-surface);
+                border-bottom: var(--border-brutal);
+                padding: 1rem;
+                gap: 0.8rem;
+            }
+            .bpaas-nav.is-open {
+                display: flex;
+            }
+            .hamburger-menu {
+                display: flex;
+            }
+        }
+        .bpaas-main {
+            flex: 1;
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            width: 100%;
+        }
+        .bpaas-article {
+            background: var(--bg-surface);
+            border: var(--border-brutal-thin);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .bpaas-article h1 {
+            font-family: var(--font-mono);
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            color: var(--accent-neon);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-left: 6px solid var(--accent-neon);
+            padding-left: 1rem;
+        }
+        .bpaas-article h2 {
+            font-family: var(--font-mono);
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            color: var(--accent-neon);
+            border-bottom: 2px solid var(--accent-neon-dim);
+            padding-bottom: 0.3rem;
+        }
+        .bpaas-article h3 {
+            font-family: var(--font-mono);
+            font-size: 1.2rem;
+            margin: 1.5rem 0 0.8rem;
+            color: var(--text-primary);
+        }
+        .bpaas-article p {
+            margin-bottom: 1.2rem;
+            font-size: 1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+        .bpaas-article blockquote {
+            border-left: 4px solid var(--accent-neon);
+            background: var(--bg-card);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: var(--text-primary);
+            box-shadow: inset 0 0 6px rgba(57,255,20,0.08);
+        }
+        .bpaas-article ul, .bpaas-article ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1.2rem;
+            color: var(--text-secondary);
+        }
+        .bpaas-article li {
+            margin-bottom: 0.5rem;
+        }
+        .bpaas-data-card {
+            background: var(--bg-card);
+            border: var(--border-brutal-thin);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: space-between;
+        }
+        .bpaas-data-card .stat {
+            flex: 1 1 180px;
+            text-align: center;
+        }
+        .bpaas-data-card .stat-number {
+            font-family: var(--font-mono);
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-neon);
+            display: block;
+        }
+        .bpaas-data-card .stat-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+        }
+        .bpaas-article .highlight-box {
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+            border: 2px solid var(--accent-neon);
+            padding: 1.2rem 1.5rem;
+            margin: 1.5rem 0;
+            box-shadow: var(--shadow-neon);
+        }
+        .bpaas-article .highlight-box p {
+            color: var(--text-primary);
+            margin-bottom: 0;
+        }
+        .bpaas-article .table-wrap {
+            overflow-x: auto;
+            margin: 1.5rem 0;
+        }
+        .bpaas-article table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+        .bpaas-article th {
+            background: var(--accent-neon-dim);
+            color: var(--bg-primary);
+            font-family: var(--font-mono);
+            text-transform: uppercase;
+            padding: 0.6rem 0.8rem;
+            border: 1px solid var(--accent-neon);
+        }
+        .bpaas-article td {
+            padding: 0.5rem 0.8rem;
+            border: 1px solid #333;
+            color: var(--text-secondary);
+        }
+        .bpaas-article td:first-child {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        .bpaas-footer {
+            background: var(--bg-surface);
+            border-top: var(--border-brutal);
+            text-align: center;
+            padding: 1.5rem 2rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-family: var(--font-mono);
+        }
+        .bpaas-footer a {
+            color: var(--accent-neon);
+        }
+        /* responsive-768 pattern */
+        @media (max-width: 768px) {
+            .bpaas-article h1 {
+                font-size: 1.7rem;
+                padding-left: 0.8rem;
+            }
+            .bpaas-article h2 {
+                font-size: 1.3rem;
+            }
+            .bpaas-data-card {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .bpaas-main {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="bpaas-header">
+    <div class="bpaas-logo">
+        <a href="/">[ HDCG ]</a>
+    </div>
+    <nav class="bpaas-nav" id="main-nav">
+        <a href="/">홈</a>
+        <a href="/blog" class="active">블로그</a>
+        <a href="/guide">가이드</a>
+        <a href="/faq">FAQ
+</body>
+</html>
